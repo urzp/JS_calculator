@@ -1,0 +1,61 @@
+.calculator{
+    width: 215px; 
+    height: 170px;
+    background: #eee;
+}
+
+.display{
+    width: 215px;
+    height: 50px;
+    margin: auto;
+    
+}
+
+.display-content{
+    width: 200px;
+    height: 46px;
+    border-radius: 5px;
+    background: #ccc;
+    margin: auto;
+}
+
+
+.panels {
+    width: 215px;
+    height: 170px;
+}
+
+.panels-in{
+    width: 210px;
+    height: 160px;
+    margin: auto;   
+}
+
+
+.large-btn{
+    width: 113px; 
+}
+
+
+.btn {
+    margin: 3px 1px;
+}
+
+
+.numbers-panel {
+    float: left;
+    width: 120px;
+}
+
+.action-panel {
+    float: left;
+    width: 90px;
+}
+
+.action-panel > .btn {
+    width: 40px; 
+}
+
+.medium-btn {
+    width: 86px !important;
+}
