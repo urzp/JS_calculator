@@ -31,12 +31,15 @@ function Operation() {
     this.get_member = function(sunmol){
         this.str_member+=sunmol;
         this.member = parseInt(this.str_member);
+        document.getElementById("display").innerHTML= this.member;
         //alert(this.member); 
     };  
     
     this.negative_numb = function(){
-       this.member = -1*this.member;
-       alert(this.member); 
+        this.member = -1*this.member;
+        document.getElementById("display").innerHTML= this.member;
+        //alert(this.member); 
+        
     };
     
     
@@ -59,8 +62,13 @@ function Operation() {
              var sign = removed[0];
              this.result = calculate(a,b,sign);
          };
-         alert(this.result);
-         this.clear();
+        // alert(this.result);
+        document.getElementById("display").innerHTML= this.result; 
+        this.str_member = ""; 
+        this.member = 0;
+        this.result = null;
+        this.member_operators = new Array;
+
      };
     
     this.clear =function() {
@@ -68,6 +76,7 @@ function Operation() {
         this.member = 0;
         this.result = null;
         this.member_operators = new Array;
+        document.getElementById("display").innerHTML= 0;
         //alert(this.member_operators);
     };
     

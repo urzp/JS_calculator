@@ -64,3 +64,10 @@
 .medium-btn {
     width: 86px !important;
 }
+
+.display-content{
+    text-align: right;
+    padding: 11px;
+    font-size: 20px;
+    font-family: 'Prosto One', cursive;
+}
