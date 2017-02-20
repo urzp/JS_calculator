@@ -64,8 +64,8 @@ function Operation() {
          };
         // alert(this.result);
         document.getElementById("display").innerHTML= this.result; 
-        this.str_member = ""; 
-        this.member = 0;
+        this.str_member = this.result; 
+        this.member = parseInt(this.result);;
         this.result = null;
         this.member_operators = new Array;
 
